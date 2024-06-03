@@ -1,0 +1,31 @@
+# api-transferencia
+
+rests:
+  clientes:
+    url: http://localhost:9090
+  contas:
+    url: http://localhost:9090
+
+# Spring Boot
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+  h2:
+    console.enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+  main:
+    banner-mode: off
+
+
+## Spring Cloud AWS
+
+cloud:
+  aws:
+    endpoint:
+      uri: http://localhost:4566

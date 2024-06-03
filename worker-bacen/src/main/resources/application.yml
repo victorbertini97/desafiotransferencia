@@ -1,0 +1,18 @@
+# worker-bacen
+rests:
+  bacen:
+    url: http://localhost:9090
+
+# Spring Boot
+spring:
+  main:
+    banner-mode: "off"
+
+server:
+  port: 8081
+
+## Spring Cloud AWS
+cloud:
+  aws:
+    endpoint:
+      uri: http://localhost:4566
