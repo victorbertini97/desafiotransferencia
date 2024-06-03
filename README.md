@@ -19,7 +19,7 @@ Serviço de tranferência entre contas em REST inspirado nos conceitos da [Arqui
 ## 🎡 Como Iniciar/Executar o Projeto
 
 - [X] _Realize o `git clone` do projeto;_
-- [X] _Installe **[JDK 17](https://www.oracle.com/br/java/technologies/downloads)** instalado;_  
+- [X] _Instale **[JDK 17](https://www.oracle.com/br/java/technologies/downloads)**;_  
 - [X] _Crie um profile na **[AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)** com os dados abaixo para configurar o [LocalStack](https://www.localstack.cloud/) para [SQS](https://aws.amazon.com/pt/sqs/);_
     - [X] _**AWS AccessKey** = ANUJDEKAVADIYAEXAMPLE_
     - [X] _**AWS SecretKey** = 2QvM4/Tdmf38SkcD/qalvXO4EXAMPLEKEY_
