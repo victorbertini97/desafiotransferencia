@@ -11,7 +11,7 @@ import com.desafioitau.api.transferencia.infrastructure.rests.models.ClienteResp
 
 import feign.FeignException;
 
-@FeignClient(name = "ClientesClient", url = "${rests.clientes.url}")
+@FeignClient(name = "ClientesRest", url = "${rests.clientes.url}")
 public interface ClientesRest {
 
     @GetMapping(value = "/clientes/{idCliente}")
