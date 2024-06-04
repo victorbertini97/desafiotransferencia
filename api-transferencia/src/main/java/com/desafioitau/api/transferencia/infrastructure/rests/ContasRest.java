@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Optional;
 
-@FeignClient(name = "ContasClient", url = "${rests.contas.url}")
+@FeignClient(name = "ContasRest", url = "${rests.contas.url}")
 public interface ContasRest {
 
     @PutMapping(value = "/contas/saldos")
