@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.desafioitau.worker.bacen.infrastructure.rests.models.NotificacaoRequest;
 
-@FeignClient(name = "BacenClient", url = "${rests.bacen.url}")
+@FeignClient(name = "BacenRest", url = "${rests.bacen.url}")
 public interface BacenRest {
 
     @PostMapping(value = "/notificacoes")
